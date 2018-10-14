@@ -4,22 +4,22 @@
 
 HTML code is made up of characters that live inside angled brackets called HTML **elements**.
 * Elements are made up of two tags:
-  1. opening tag (ex <html>)
-  2. closing tag (ex </html>)
+  1. opening tag (ex `<html>`)
+  2. closing tag (ex `</html>`)
     * The closing tag has an extra forward slash (/) 
 * Tags act like containers. A few examples:
-  * [html] indicates anything within this tag is HTML code
-  * [body] indicates anything within this tag should be shown inside the main browser window
-  * [h1] indicates main heading.
-  * [p] indicates paragraph
-  * [h2] indicates sub-heading
+  * `<html>` indicates anything within this tag is HTML code
+  * `<body>` indicates anything within this tag should be shown inside the main browser window
+  * `<h1>` indicates main heading.
+  * `<p>` indicates paragraph
+  * `<h2>` indicates sub-heading
 
 Attribute provide additional information about the contents of an element
 * Appear on the opening tag of the element
 * Made up of two parts:
   1. name (should be written in lowercase)
   2. value (should be placed in double quotes)
-* ex) <p lang="en-us"> Paragraph is English </p>
+* ex) `<p lang="en-us"> Paragraph is English </p>`
   * 'lang' is attribute name, 'en-us' is attribute value
 * Majority of attributes can only be used on certain elements
   * A few elements (such as 'lang') can appear on any element
@@ -28,13 +28,13 @@ Attribute provide additional information about the contents of an element
 
 ### Body, Head & Title
 
-1. ***<body>***
+1. `<body>`
 Everything inside this element is shown inside the main browser window
-2. ***<head>***
+2. `<head>`
 Contains information *about* the page rather than information shown *within* the browser.
 
-Usually a **<title>** element will be found inside the **<head>** element.
-3. ***<title>***
+Usually a `<title>` element will be found inside the **<head>** element.
+3. `<title>`
 Shown in the top of the browser, above where the URL **or** on the tab for that page.
 
 `HTML stands for HyperText Markup Language`
