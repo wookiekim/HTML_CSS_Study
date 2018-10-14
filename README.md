@@ -1,7 +1,7 @@
 # HTML_CSS_Study
 My personal HTML&amp;CSS study using **HTML &amp; CSS design and build websites** by Jon Duckett
 
-##CONTENTS
+## CONTENTS
 * Introduction
 * Chapter 1: Structure
 * Chapter 2: Text
